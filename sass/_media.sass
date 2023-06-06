@@ -1,0 +1,76 @@
+@media screen and (max-width: 1024px)
+    .container
+        width: 100%
+        flex-direction: column
+    .left
+        &_section
+            padding: 0
+            height: 100%
+            width: 100%
+        &_section>div
+            padding: 0 40px
+        &_link
+            margin: 0
+        &_about_me
+            width: 550px
+            margin: 20px auto
+            &_bottom
+                display: flex
+                flex-direction: row
+                justify-content: space-between
+                padding: 20px 40px
+                width: 550px
+                margin: 0 auto
+            h4
+                text-align: center
+    .right
+        &_section
+            width: 100%
+            padding: 0
+        &_section>div
+            padding: 20px 40px
+   
+
+@media screen and (max-width: 768px)
+    .left
+        &_link:nth-child(2)
+            margin-top: 20px 
+        &_about_me
+            width: 100%
+            &_bottom
+                text-align: center
+                padding: 20px 0
+                width: 100%
+                flex-direction: column
+    .header
+        flex-direction: column
+        align-items: center
+        text-align: center
+    .right
+        &_section_item
+            flex-direction: column
+            
+            .hr
+                width: 100%
+                height: 3px
+                margin: 20px 0px
+                &::before
+                    top: -4px
+                    left: 0
+                    transform: none
+            ul
+                padding-left: 25px
+                li
+                    width: 275px
+
+@media screen and (max-width: 425px)
+    .left_image
+        img
+            width: 100%
+    .container
+        box-shadow: none
+        width: 110%
+
+@media screen and (max-width: 375px)
+    .container
+        width: 120%
