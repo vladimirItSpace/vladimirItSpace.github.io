@@ -220,16 +220,16 @@
   width: 90%;
 }
 .right_skills_content .item:nth-child(3) .item_bar_color {
-  width: 60%;
+  width: 90%;
 }
 .right_skills_content .item:nth-child(4) .item_bar_color {
-  width: 80%;
+  width: 90%;
 }
 .right_skills_content .item:nth-child(5) .item_bar_color {
-  width: 50%;
+  width: 90%;
 }
 .right_skills_content .item:nth-child(6) .item_bar_color {
-  width: 10%;
+  width: 90%;
 }
 
 @media screen and (max-width: 1024px) {
